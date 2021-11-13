@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/primary_blue"
+    android:paddingStart="@dimen/_15sdp"
+    android:paddingEnd="@dimen/_15sdp"
+    tools:context=".ui.fragments.signup.view.SignUpFragment">
+
+    <ImageView
+        android:id="@+id/ivDesignHouse"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/ic_design_house"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivDesignHouse"
+        android:textSize="@dimen/Heading_Text_Size"
+        android:text="@string/signup"
+        android:fontFamily="@font/mulish_extrabold"
+        android:textColor="@color/white"/>
+    
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        app:layout_constraintTop_toBottomOf="@id/tvSignUp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/mulish_regular"
+        android:paddingStart="@dimen/_15sdp"
+        android:textSize="@dimen/Edittext_Text_Size"
+        android:background="@drawable/edittext_background"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/mulish_regular"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        android:paddingStart="@dimen/_15sdp"
+        android:textSize="@dimen/Edittext_Text_Size"
+        android:background="@drawable/edittext_background"/>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/mulish_regular"
+        android:paddingStart="@dimen/_15sdp"
+        android:textSize="@dimen/Edittext_Text_Size"
+        app:layout_constraintTop_toBottomOf="@id/etPhone"
+        android:background="@drawable/edittext_background"/>
+
+    <TextView
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="1"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        app:layout_constraintTop_toBottomOf="@id/etEmail"
+        android:background="@drawable/button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:focusable="true"
+        android:text="@string/next"
+        android:gravity="start|center_vertical"
+        android:paddingEnd="@dimen/Button_Padding_End"
+        android:paddingStart="@dimen/Button_Padding_Start"
+        android:drawableEnd="@drawable/ic_right_arrow_white"
+        android:fontFamily="@font/mulish_bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Button_Text_Size"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

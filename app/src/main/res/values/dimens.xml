@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="Heading_Text_Size">@dimen/_18ssp</dimen>
+<dimen name="Button_Text_Size">@dimen/_12ssp</dimen>
+<dimen name="Edittext_Text_Size">@dimen/_13ssp</dimen>
+<dimen name="Button_Padding_Start">@dimen/_20sdp</dimen>
+<dimen name="Button_Padding_End">@dimen/_30sdp</dimen>
+<dimen name="Screen_start_padding">@dimen/_15sdp</dimen>
+<dimen name="Screen_end_padding">@dimen/_15sdp</dimen>
+</resources>

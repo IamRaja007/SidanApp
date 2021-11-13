@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sidan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="next">NEXT</string>
+    <string name="proceed">Proceed</string>
+    <string name="signin">Sign In</string>
+    <string name="app_slogan">Kenya\'s best home service app.</string>
+    <string name="apply_to_work">Apply to work with us.</string>
+    <string name="verify_your_phone_details">Verify your phone details</string>
+    <string name="message_has_been_sent">A message has been sent to \nphone number ending with</string>
+</resources>
